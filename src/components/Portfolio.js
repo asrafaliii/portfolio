@@ -4,11 +4,11 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Portfolio = () => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white">
+    <div name="portfolio" className="w-full py-4 px-4 bg-white">
       <p className="text-[#61dbfb] text-center py-3 font-bold md:text-3xl sm:text-4xl ">
         PORTFOLIO
       </p>
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 mt-5">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <h2 className="text-3xl font-bold text-center py-8">Project</h2>
           <div className="text-center font-medium">

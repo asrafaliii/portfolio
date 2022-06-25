@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #000300;
+@layer base {
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+    @apply font-bold;
+  }
 }

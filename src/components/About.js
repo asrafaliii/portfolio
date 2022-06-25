@@ -3,7 +3,7 @@ import Gif from "../assets/giphy.gif";
 
 const About = () => {
   return (
-    <div className="w-full bg-white py-16 px-4 mb-0">
+    <div name="about" className="w-full bg-white py-16 px-4 mb-0">
       <p className="text-[#61dbfb] text-center font-bold md:text-3xl sm:text-4xl ">
         ABOUT ME
       </p>
